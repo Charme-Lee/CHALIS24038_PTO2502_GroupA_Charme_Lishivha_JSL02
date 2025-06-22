@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const SecondTask = getTaskDetails(2);
 
   const allTasks = [FirstTask, SecondTask];
-
   const completedTasks = allTasks.filter((task) => task.status === "done");
 
   // Log outputs
