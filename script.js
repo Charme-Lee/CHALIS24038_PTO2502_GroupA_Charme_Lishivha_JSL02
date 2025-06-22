@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const completedTasks = allTasks.filter((task) => task.status === "done");
 
+  // Log outputs
   if (completedTasks.length > 0) {
     completedTasks.forEach((task) => {
       console.log(`Title: "${task.title}", Status: "done"`);
