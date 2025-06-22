@@ -1,13 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Prompt user for full task details and validate status input
-  function getTaskDetails(taskNumber) {
-    const taskTitle = prompt(`Enter the title for Task ${taskNumber}:`);
-    const taskDescription = prompt(
-      `Enter the description for Task ${taskNumber}:`
-    );
+  function getTaskDetails(task) {
+    const taskTitle = prompt(`Enter the title for Task ${task}:`);
+    const taskDescription = prompt(`Enter the description for Task ${task}:`);
 
     let taskStatus = prompt(
-      `Enter the status for Task ${taskNumber} (todo, doing, done):`
+      `Enter the status for Task ${task} (todo, doing, done):`
     );
 
     // Change status to lowercase
@@ -17,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     while (!["todo", "doing", "done"].includes(taskStatus)) {
       alert("Invalid status! Please enter one of: todo, doing, done.");
       taskStatus = prompt(
-        `Enter the status for Task ${taskNumber} (todo, doing, done):`
+        `Enter the status for Task ${task} (todo, doing, done):`
       ).toLowerCase();
     }
 
@@ -29,10 +27,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Capture task details
-  const firstTask = getTaskDetails(1);
-  const secondTask = getTaskDetails(2);
+  const FirstTask = getTaskDetails(1);
+  const SecondTask = getTaskDetails(2);
 
-  const allTasks = [firstTask, secondTask];
+  const allTasks = [FirstTask, SecondTask];
 
   const completedTasks = allTasks.filter((task) => task.status === "done");
 
