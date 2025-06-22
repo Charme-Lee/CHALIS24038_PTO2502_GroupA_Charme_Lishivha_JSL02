@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       `Enter the status for Task ${taskNumber} (todo, doing, done):`
     );
 
-    // Normalize status to lowercase
+    // Change status to lowercase
     taskStatus = taskStatus.toLowerCase();
 
     // Loop until a valid status is entered
@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
       status: taskStatus,
     };
   }
-  // Collect task details for two tasks
+
+  // Capture task details
   const firstTask = getTaskDetails(1);
   const secondTask = getTaskDetails(2);
 
