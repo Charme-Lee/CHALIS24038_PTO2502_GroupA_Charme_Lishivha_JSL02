@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Change status to lowercase
     taskStatus = taskStatus.toLowerCase();
 
-    // Loop until a valid status is entered
+    // Repeat the prompt until a valid status is received
     while (!["todo", "doing", "done"].includes(taskStatus)) {
       alert("Invalid status! Please enter one of: todo, doing, done.");
       taskStatus = prompt(
