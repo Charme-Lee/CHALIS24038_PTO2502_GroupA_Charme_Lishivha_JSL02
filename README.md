@@ -1,6 +1,8 @@
 # JSL02 Project: Kanban (Task Manager)
 
-🚀 Task Input and Status Validation System
+## 🚀 Task Input and Status Validation System
+
+💡*This project is a continuation of JSL01*
 
 ## 📋 Overview
 
@@ -28,6 +30,28 @@ The application is a responsive, browser-based task manager that enables users t
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
 
 ## ⚙️ Set up instructions
+
+<!-- ⚡*No Set up needed* -->
+
+a. **Clone the Repository**
+
+```bash
+git clone
+https://github.com/Charme-Lee/CHALIS24038_PTO2502_GroupA_Charme_Lishivha_JSL02.git
+```
+
+b. **Open the Project Folder**
+
+```bash
+cd
+CHALIS24038_PTO2502_GroupA_Charme_Lishivha_JSL02
+```
+
+c. **Launch the App**
+
+- Use a Live Server extension in your IDE for ease of use.
+  Alternatively,
+- Open index.html file directly from your web browser (i.e. Drag and drop the file onto the browser)
 
 ## Expected Outcome
 
