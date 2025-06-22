@@ -1,4 +1,6 @@
-# JSL02 Project Brief: Task Input and Status Validation System
+# JSL02 Project: Kanban (Task Manager)
+
+🚀 Task Input and Status Validation System
 
 ## 📋 Overview
 
@@ -6,16 +8,16 @@ This project presents a visually precise Kanban board designed to closely reflec
 
 The application is a responsive, browser-based task manager that enables users to visually organize and monitor tasks through three workflow stages: TODO, DOING, and DONE. With its clean layout and interactive prompt-based task input, it provides an intuitive and accessible entry point to effective task management.
 
-## ✨ Features - ✅ Responsive
+## ✨ Features
 
-layout with a three-column Kanban board
-
+- ✅ Responsive layout with a three-column Kanban board
 - ✅ Console logs completed (`done`) tasks only
 - ✅ Friendly fallback message if no tasks are completed
 - ✅ Sidebar with custom branding and intuitive navigation
 - ✅ Case-insensitive status input (e.g., `todo`,`Doing`, `DONE`)
 - ✅ Alerts and re-prompting for invalid statuses
 - ✅ Semantic HTML and well-commented JavaScript for easy maintenance
+- ✅Favicon Assets – SVG Icons
 
 ## 🛠️ Technologies Used
 
@@ -24,6 +26,8 @@ layout with a three-column Kanban board
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+
+## ⚙️ Set up instructions
 
 ## Expected Outcome
 
