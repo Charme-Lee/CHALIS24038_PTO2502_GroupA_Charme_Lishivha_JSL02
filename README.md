@@ -1,29 +1,29 @@
 # JSL02 Project Brief: Task Input and Status Validation System
 
-## Important Prerequisite
+## 📋 Overview
 
-1. Before starting this challenge, ensure that you have **corrected your JSL01 project (HTML and CSS)** using the solution provided. This will help maintain consistency and ensure you build on a solid foundation.
-2. **Check the project user stories in your student dashboard**, make sure you understand what is required for each feature.
+This project presents a visually precise Kanban board designed to closely reflect the original Figma design specifications. The user interface features clearly defined task columns, a static sidebar for streamlined navigation, and a cohesive visual theme that ensures a polished and professional experience across both desktop and mobile platforms.
 
-## Overview
+The application is a responsive, browser-based task manager that enables users to visually organize and monitor tasks through three workflow stages: TODO, DOING, and DONE. With its clean layout and interactive prompt-based task input, it provides an intuitive and accessible entry point to effective task management.
 
-This project involves implementing a JavaScript-based task entry system where users can input two tasks with complete details, ensuring data consistency and validation. The system will guide users through entering valid task titles, descriptions, and statuses, enforcing correct formatting while maintaining code clarity and maintainability.
+## ✨ Features - ✅ Responsive
 
-## Key Objectives
+layout with a three-column Kanban board
 
-### Logic & User Interaction
+- ✅ Console logs completed (`done`) tasks only
+- ✅ Friendly fallback message if no tasks are completed
+- ✅ Sidebar with custom branding and intuitive navigation
+- ✅ Case-insensitive status input (e.g., `todo`,`Doing`, `DONE`)
+- ✅ Alerts and re-prompting for invalid statuses
+- ✅ Semantic HTML and well-commented JavaScript for easy maintenance
 
-- Ensure the JavaScript file is correctly linked to the HTML document.
-- Prompt the user to enter details (title, description, status) for two separate tasks and store them in variables.
-- Convert all status inputs to lowercase automatically for consistency.
-- Validate the status input to allow only "todo", "doing", or "done" and repeatedly prompt the user until a valid status is entered.
-- Display the title and status of completed tasks (status: "done") in the console.
-- If no tasks are marked as "done", show a motivational message in the console: "No tasks completed, let's get to work!".
+## 🛠️ Technologies Used
 
-## Code Quality & Maintainability
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 
-- Use descriptive variable names to enhance readability and maintainability.
-- Include clear comments explaining complex logic and functionality for easier understanding.
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
 
 ## Expected Outcome
 
