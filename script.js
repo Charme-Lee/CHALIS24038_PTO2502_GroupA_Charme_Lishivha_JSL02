@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Prompt user for full task details and validate status input
+  // Prompt user for task details
   function getTaskDetails(task) {
     const taskTitle = prompt(`Enter the title for Task ${task}:`);
     const taskDescription = prompt(`Enter the description for Task ${task}:`);
