@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 
-  // Capture task details
+  // Record the task details
   const FirstTask = getTaskDetails(1);
   const SecondTask = getTaskDetails(2);
 
