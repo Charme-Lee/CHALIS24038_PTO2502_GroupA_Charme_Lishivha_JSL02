@@ -31,50 +31,110 @@ The application is a responsive, browser-based task manager that enables users t
 
 ## ⚙️ Set up instructions
 
-<!-- ⚡*No Set up needed* -->
-
-a. **Clone the Repository**
+1. **Clone the Repository**
 
 ```bash
 git clone
 https://github.com/Charme-Lee/CHALIS24038_PTO2502_GroupA_Charme_Lishivha_JSL02.git
 ```
 
-b. **Open the Project Folder**
+2. **Open the Project Folder**
 
 ```bash
 cd
 CHALIS24038_PTO2502_GroupA_Charme_Lishivha_JSL02
 ```
 
-c. **Launch the App**
+3. 🚀 **Launch the App**
 
 - Use a Live Server extension in your IDE for ease of use.
   Alternatively,
 - Open index.html file directly from your web browser (i.e. Drag and drop the file onto the browser)
 
-## Expected Outcome
+## 🧑‍💻 Usage Instructions
 
-A functional task entry system that ensures accurate data collection, validation, and structured storage while maintaining clean and well-documented code for easy future modifications.
+### ⚡ At Startup
 
-**Prompt Input Example**
+1. Open the Kanban app in your browser.
+2. Browser prompt will pop up requesting user details
 
-- The program must prompt users for task 1 title, descrition and status inputs, it must do the same for task 2 information
+### 🗒️ Enter Task Details
 
-  ![title prompt](./explainer-images/title%20prompt.png)
+Each task has 3 prompts:
 
-**Invalid status**
+- **Title** (e.g., `"Breakfast"`)
+- **Description** (e.g., `"Overnight oats"`)
+- **Status**:
+  - Valid options: `todo`, `doing`, `done`
+  - If the input is invalid, an alert will appear and you’ll be asked to re-enter it.
 
-- If the user enters a status other than `todo`, `doing` or `done`, the program must alert the user of this and return to prompting them to enter a status.
+### 💻 Console Output (Browsers Dev tools)
+
+- If a task is marked `"done"`, its title and status will be printed:
+
+  ```
+  Title: "Write report", Status: "done"
+  ```
+
+- If no task(s) are completed, the console log will print:
+
+  ```
+  No tasks completed, let's get to work!
+  ```
+
+## 📖 Usage Examples
+
+### 👍 Example 1: A complete/ done task
+
+**Prompt Input(s):**
+
+- Task 1:
+
+  - Title: `Make corrections to JSL01`
+
+    ![title prompt](./explainer-images/title%20prompt.png)
+
+  - Description: `JSL01`
+  - Status: `DONE`
+
+- Task 2:
+  - Title: `Project 2`
+  - Description: `JSL02`
+  - Status: `todo`
+
+**Console Output:**
+
+```
+Title: "Make corrections to JSL01", Status: "done"
+```
+
+![invalid status](./explainer-images/completed%20task%20log.png)
+
+---
+
+### ❌ Example: No Tasks Completed/Done
+
+**Prompt Input(s):**
+
+- Task 1:
+  - Title: `Project 1`
+  - Description: `JSL01`
+  - Status: `TODO`
+- Task 2:
+  - Title: `Project 2`
+  - Description: `JSL02`
+  - Status: `Doing`
+
+**Console Output:**
+
+```
+No tasks completed, let's get to work!
+```
+
+![invalid status](./explainer-images/no%20completed%20tasks%20log.png)
+
+**Invalid Status:**
+
+- If the user enters a status other than `todo`, `doing` or `done`, the program will alert the user of this and return to prompting them to enter a status.
 
   ![invalid status](./explainer-images/invalid%20status.png)
-
-**Console log**
-
-- When there is a completed task:
-
-  ![invalid status](./explainer-images/completed%20task%20log.png)
-
-- When there are no completed tasks:
-
-  ![invalid status](./explainer-images/no%20completed%20tasks%20log.png)
